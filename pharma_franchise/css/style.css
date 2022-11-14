@@ -1,0 +1,1059 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin:0;
+    padding:0;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+ul, li{ 
+    margin:0; 
+    padding:0;
+}
+
+p, h1, h2, h3, h4, h5, h6{ 
+    margin:0;
+    padding:0;
+}
+
+.sec-border {
+    border: 2px solid #4576b9;
+}
+
+h2{
+    color: #4576b9;
+}
+
+header {
+    box-shadow: 0 0 5px #00000024;
+}
+
+header .top-bar {
+    background-color: #4576b9;
+}
+
+header .top-btn a.btn.btn-primary {
+    background: #90ca5f;
+    border: none;
+    color: #fff;
+    padding: 2px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+header .top-btn a.btn.btn-primary:hover {
+    background: #fff;
+    color: #4576b9;
+    transition: .5s;
+}
+
+header .contact a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header a.tel {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+/*header a.nav-link {
+    color: #000;
+    font-weight: 500;
+}*/
+header .logo img {
+    width: 200px;
+}
+
+header .search-bar {
+    width: 60%;
+}
+
+header .search-bar input.form-control {
+    border: 2px solid #ced4da;
+    padding-left: 35px;
+}
+
+header .search-bar i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #858585;
+}
+
+header .search-bar button.btn.btn-outline-success {
+    border: 1px solid #4576b9;
+    background: #4576b9;
+    color: #ffffff;
+    width: 30%;
+}
+
+header .search-bar .form-control:focus {    
+    box-shadow: none;
+}
+
+.banner-slider {
+    border-top: 1px solid #00000017;
+    border-bottom: 1px solid #00000017;
+}
+
+.banner-slider .categories {
+    background-color: #71b339;
+    padding: 20px 10px;
+}
+
+.banner-slider .categories li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.banner-slider .categories i {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-size: 14px;
+    color: #0f4897;
+}
+
+.banner-slider .categories a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.banner-slider .categories a:hover {
+    color: #0f4897;
+    transition: .5s;
+}
+
+.banner-slider .categories a.btn.btn-primary {
+    background: #fff;
+    color: #000;
+    padding: 4px 20px;
+    margin-top: 10px;
+}
+
+.banner-slider .categories h6 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-bottom: 1px solid #4576b970;
+}
+
+.banner-slider .item h3 {
+    font-weight: 600;
+    padding: 6px 0;
+}
+
+
+.banner-slider .brandImg {
+    padding: 20px;
+}
+
+.banner-slider .brandImg img {    
+    margin: 0 auto;
+}
+
+.slides-link a {
+    text-decoration: none;
+    color: #fff;    
+    padding: 10px 15px;
+    background: #4576b9;
+    width: 24.50%;
+}
+
+.howWorks-sec {
+    background: #434343;
+    color: #fff;
+    padding: 3rem 0;
+    margin: 1rem 0 3rem;
+}
+
+.howWorks-sec .sec-heading h2 {
+    color: #fff;
+}
+
+.howWorks-sec .content img {
+    height: 85px;
+}
+
+.howWorks-sec .content h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.company-ctg-sec {
+    margin: 5rem 0;
+}
+
+.company-ctg-sec .sec-btn a.btn.btn-primary {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: #4576b9;
+}
+
+
+
+.company-ctg-sec .sec-border p {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 4px 0px;
+}
+
+.company-ctg-sec p#info {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    height: 100%;
+    min-height: 107px;
+}
+
+.company-ctg-sec .sec-btn a.btn.btn-primary:hover {
+    background: #434343;
+}
+
+.company-ctg-sec .content {
+    background: whitesmoke;
+    padding: 0 3rem 3rem;
+}
+
+.company-ctg-sec .sec-img {
+    display: flex;
+    background: #fff;
+    height: 116px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.company-ctg-sec .viewAll-btn a.btn.btn-primary {
+    background: #71b339;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 0;
+    transition: .5s;
+}
+
+.company-ctg-sec .viewAll-btn a.btn.btn-primary:hover{
+    background: #4576b9;
+    transition: .5s;
+}
+
+.testimonial-sec h2{
+    color: #fff;
+}
+
+.testimonial-sec .owl-carousel .owl-item img {    
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+}
+
+.testimonial-sec {
+    background: #434343;
+    padding: 3rem 0;    
+}
+
+.testimonial-sec .user-info p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonial-sec .usermsg p {
+    font-style: italic;
+}
+
+.testimonial-sec .client {
+    background: #fff;
+    margin: 0 8rem;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+}
+
+.testimonial-sec .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #71b339;
+}
+
+.testimonial-sec .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 30px;
+}
+
+.query-sec .sec-right button {
+    background: #4576b9;
+    border: none;
+    padding: 8px 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.query-sec .sec-right h3 {
+    padding-bottom: 20px;
+}
+
+.query-sec .sec-left{
+    height: 100%;
+}
+
+.query-sec .sec-right {
+    background: #f1f1f1;
+    padding: 20px;
+    height: 100%;
+}
+
+.query-sec .sec-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.query-sec .form-control:focus {    
+    box-shadow: none;
+}
+
+.page-banner .sec-right {
+    background-color: #4576b9;
+    padding: 20px;
+    height: 100%;
+}
+
+.page-banner .sec-right h5 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.page-banner label.form-check-label {
+    color: #fff;
+}
+
+.page-banner button.btn.btn-primary {
+    background-color: #fff;
+    color: #4576b9;
+    font-weight: 500;
+    width: 100%;
+}
+
+.page-banner input.form-control::placeholder,
+.page-banner textarea#FormControlTextarea{
+    font-size: 14px;
+}
+
+.page-banner .form-control:focus,
+.page-banner .form-select:focus {    
+    box-shadow: none;
+}
+
+.page-banner .form-check-input:checked {
+    background-color: #92cb63;    
+}
+
+.product-range-sec {
+    background-color: #434343;
+    padding: 3rem 0;
+}
+
+.product-range-sec .item {
+    border: 1px solid white;
+}
+
+.product-range-sec .owl-nav {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    font-size: 50px;    
+}
+
+.product-range-sec button.owl-next {
+    position: absolute;
+    right: -33px;
+}
+
+.product-range-sec button.owl-prev {
+    position: absolute;
+    left: -33px;
+}
+
+.product-range-sec .owl-nav span {
+    background: #fff;
+    padding: 0 5px;
+}
+
+.product-range-sec .owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;    
+    color: #000;
+}
+
+.biocoreInfo-sec .sec-left {
+    background-color: #4576b9;
+    padding: 15px;
+    height: 100%;
+}
+
+.biocoreInfo-sec .sec-left h5 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #84c44e;
+}
+
+.biocoreInfo-sec .sec-left li {
+    border-bottom: 1px solid #ffffff4d;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.biocoreInfo-sec .sec-left li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.biocoreInfo-sec .sec-left li a:hover {
+    color: #84c44e;
+}
+
+.biocoreInfo-sec .sec-right {
+    padding: 1rem 2rem;
+}
+
+.biocoreInfo-sec .sec-right h6 {
+    font-weight: 700;
+}
+
+.biocoreInfo-sec .sec-right p {
+    font-size: 15px;
+}
+
+/* ********* PCD COMPANIES ********** */
+
+.outer-sec {
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+}
+
+.ctgs {
+    background-color: #4576b9;
+    border: 1px solid #0003;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    padding: 15px;
+    color: #fff;
+}
+
+.ctgs h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ctgs li {
+    margin-bottom: 6px;
+    border-bottom: 1px solid #ffffff38;
+}
+
+.ctgs li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contactForm {
+    background-color: #4576b9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactForm h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contactForm button {
+    background-color: #fff;
+    border: none;
+    padding: 4px 24px;
+    font-weight: 600;
+}
+
+.companyDetail {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 6px;
+    box-shadow: 0 0 5px #00000047;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.companyDetail .logo img {
+    padding: 5px;
+}
+
+.companyDetail .logo img.premium {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    height: 25px;
+    rotate: -35deg;
+}
+
+.companyDetail .sec-btn a.btn.btn-primary {
+    background: #4576b9;
+    font-size: 12px;
+    border: 1px solid #4576b9;
+    margin: 0 4px;
+}
+
+.companyDetail .sec-btn a.btn.btn-secondary {
+    background: #84c54e;
+    font-size: 12px;
+    border: 1px solid #425830;
+    color: #fff;
+}
+
+.companyDetail h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.companyDetail p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.companyDetail p.lctn {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6e6e6e;
+    font-style: normal;    
+}
+
+.contactForm input.form-control::placeholder {
+    font-size: 14px;
+}
+
+.outer-sec .sticky {
+    position: sticky;
+    top: 10px;        
+    z-index: 999;    
+}
+
+.page-id-159 footer{
+    margin-top: 0;
+}
+
+footer {
+    background: #4576b9;
+    color: #fff;
+    margin-top: 4rem;
+    padding-top: 3rem;
+}
+
+footer h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer .footer-logo img {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+footer .footer-links ul,
+footer .products ul {
+    padding: 0 25px;
+}
+
+footer  .footer-links li,
+footer .products li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+footer .footer-links li:before,
+footer .products li:before {
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+footer .footer-contact ul {
+    list-style-type: none;
+}
+
+footer .footer-contact li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+footer .footer-contact li>i {
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    color: #fff;
+}
+
+footer .footer-social i {
+    font-size: 22px;
+    padding: 0 15px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+footer .footer-contact a,
+footer .footer-links a,
+footer .products a {
+    font-size: 14px;
+    color: unset;
+    text-decoration: none;
+    transition: .5s;
+}
+
+footer .footer-logo p {
+    font-size: 14px;
+}
+
+footer .footer-contact a:hover,
+footer .footer-links a:hover,
+footer .products a:hover {
+    color: #71b339;
+    transition: .5s;
+}
+
+footer .copyright p {
+    font-size: 14px;
+    padding: 15px 0;
+    border-top: 1px solid #ffffff54;
+    margin-top: 35px;
+}
+.productRange-slider .owl-dots.disabled, .productRange-slider .owl-nav.disabled {
+    display: block;
+}
+.productRange-slider .owl-item img {
+    width: 256px;
+    height: 206px;
+    object-fit: cover;
+}
+
+.singlePost a.navbar-brand img {
+    height: 55px;
+}
+
+.singlePost .top-bar {
+    background-color: #00a4a7;
+}
+
+.singlePost .top-btn i {
+    position: absolute;
+    top: 8px;
+    right: 145px;
+    border-radius: 0;
+    font-size: 22px;
+    color: #00000059;
+}
+
+.singlePost .top-btn .form-control {
+    font-size: 15px;    
+}
+
+.singlePost .top-btn a.btn.btn-primary {
+    background: #e94e7d;
+    border: 1px solid transparent;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.singlePost .top-btn a.btn.btn-primary:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    transition: .5s;
+}
+
+.singlePost .top-bar input.form-control {
+    border-radius: 4px;
+}
+
+.singlePost .top-bar .form-control:focus {    
+    border-color: none;    
+    box-shadow: none;
+}
+
+.singlePost .top-bar .form-control::placeholder{
+    font-size: 14px;
+}
+
+.singlePost .top-contact i {
+    margin: 0 8px;
+}
+
+.singlePost .top-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.singlePost .navbar-light .navbar-nav .nav-link {    
+    color: #000;
+    transition: .5s;
+}
+
+.singlePost .navbar-light .navbar-nav .nav-link:hover {
+    color: #00a4a7;
+    transition: .5s;
+}
+
+.feature-sec {
+    background-color: #00a4a7;
+    color: #fff;
+}
+
+.feature-sec .feature {
+    box-shadow: 0 0 10px #00000061;
+    background: #fff;
+    border-radius: 6px;
+    padding: 25px;
+    height: 100%;
+    color: #000;
+}
+
+.feature-sec .feature img {
+    height: 80px;    
+}
+
+.feature-sec .feature h3 {
+    font-weight: 600;
+    padding: 10px 0;
+    color: #ef8469;    
+}
+
+.feature-sec .feature p {
+    font-size: 14px;
+}
+
+
+.product-sec .lightbox-container,
+.product-sec .lightbox-btn,
+.product-sec .lightbox-image-wrapper,
+.product-sec .lightbox-image {
+    transition:all .4s ease-in-out;
+}
+
+.product-sec .lightbox-enabled {
+    padding-top: 100%;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 8px #00000040;
+    height: 100%;
+}
+
+.product-sec .lightbox-container{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(0,0,0,.6);
+    z-index:9999;
+    opacity:0;
+    pointer-events:none;
+}
+
+.product-sec .lightbox-container.active {
+  opacity:1;
+  pointer-events:all;
+}
+
+.product-sec .lightbox-image-wrapper {
+  display:flex;
+  transform:scale(0);
+  align-items:center;
+  justify-content:center;
+  max-width:90vw;
+  max-height:90vh;
+  position:relative;
+}
+
+.product-sec .lightbox-container.active .lightbox-image-wrapper {
+    transform:scale(1);
+}
+
+.product-sec .lightbox-btn,
+.product-sec #close {
+  color:white;
+  z-index:9999999;
+  cursor:pointer; 
+  position:absolute;
+  font-family: 'Material Icons'!important;
+  font-size: 35px;
+}
+
+.product-sec .lightbox-btn:focus {
+  outline:none;
+}
+
+.product-sec .left {left:50px;}
+.product-sec .right {right:50px;}
+.product-sec #close {
+    top:10px;
+    right:50px;
+}
+
+.product-sec .lightbox-image {
+  width:100%;
+  -webkit-box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.19); 
+  box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.19);
+  max-height:95vh;
+  object-fit:cover;
+ }
+
+@keyframes slideleft {
+  33% {transform:translateX(-300px);
+  opacity:0;
+  }
+  66% {transform:translateX(300px);
+  opacity:0;
+  }
+}
+
+
+.product-sec .slideleft {
+   animation-name: slideleft;
+ animation-duration: .5s; 
+ animation-timing-function: ease; 
+}
+
+@keyframes slideright {
+  33% {transform:translateX(300px);
+  opacity:0;}
+  66% {transform:translateX(-300px);
+  opacity:0;}
+}
+
+
+.product-sec .slideright{
+   animation-name: slideright;
+   animation-duration: .5s; 
+   animation-timing-function: ease; 
+}
+
+.product-sec .pro-name {
+    background-color: #e94e7d;
+    color: #fff;
+}
+
+.product-sec .pro-name p {
+    font-weight: 600;    
+}
+
+.contact-sec{
+    background-image: url('https://pharma-franchise.com/wp-content/uploads/2022/10/bg-img.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.contact-sec h2 {
+    color: #fff;
+    position: relative;
+}
+
+.contact-sec h2:after {
+    content: "";
+    background: #e94e7d;
+    width: 145px;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.contact-sec:after{
+    content: "";
+    background: #0000008c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.contact-sec .contact-left h6 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.contact-sec .contact-left h6:after {
+    content: "";
+    width: 95px;
+    height: 2px;
+    background: #00a4a7;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.contact-sec .contact-left li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-sec .contact-left li i {
+    font-size: 20px;
+    color: #00a4a7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-sec .contact-left li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-sec .company h5 {
+    font-weight: 700;
+}
+
+.contact-sec .contact-right {
+    background: #e94e7d;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-sec .contact-right p {
+    margin-bottom: 15px;
+}
+
+.contact-sec .form-control::placeholder{
+    font-size: 14px;
+}
+
+.contact-sec .form-control:focus {    
+    box-shadow: 0 0 0 0.01rem rgb(0 164 167);
+}
+
+.contact-sec .contact-right button {
+    background: #00a4a7;
+    border: 1px solid transparent;
+    padding: 6px 24px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.contact-sec .contact-right button:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    transition: .5s;
+}
+
+.copyright{
+    background-color: #00a4a7;
+    color: #fff;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+section {
+    padding: 70px 0;
+}
+.bannerPharmaFranchise{
+    padding: 100px 0px;
+}
+
+.about-services {
+    background-color: whitesmoke;
+    padding: 2rem 0;
+}
+.about-focus h6,
+.privacy-policy h6 {
+    font-weight: 700;
+}
+.about-services li {
+    padding-left: 20px;
+}
+.about-services li i {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: #4576b9;
+}
+.contactSec .sec-left iframe {
+    width: 100%;
+}
+
+.contactSec .sec-right {
+    background-color: #4576b9;
+    padding: 20px;
+}
+
+.contactSec .sec-right h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.contactSec .sec-right button {
+    background: #fff;
+    border: none;
+    padding: 8px 30px;
+    color: #000;
+    font-weight: 500;
+}
+
+.contactInfo i {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #4576b9;
+}
+
+.contactInfo {
+    background-color: whitesmoke;
+    padding: 2rem 0;
+}
+
+.page-id-228 footer {
+    margin-top: 0;
+}
+
+.headerfixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0px 1px 4px #b4b4b4;
+}

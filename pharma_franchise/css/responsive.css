@@ -1,0 +1,284 @@
+@media (max-width: 1024px){
+h2 {
+    font-size: 26px;
+}
+
+.slides-link a,
+footer .copyright p {    
+    font-size: 13px;    
+}
+
+.about-sec p,
+footer .footer-contact a,
+footer .footer-links a,
+footer .products a,
+footer .footer-logo p {
+    font-size: 14px;
+}
+
+.company-ctg-sec .sec-border p {
+    font-size: 15px;    
+}
+
+.howWorks-sec .content h6 {
+    font-size: 16px;    
+}
+
+.company-ctg-sec {
+    margin: 3rem 0;
+}
+
+.page-banner .sec-right h5 {
+    font-size: 16px;    
+}
+.page-banner .item img {
+    height: 100%;
+    min-height: 394px;
+}
+.companyDetail .logo img {
+    padding: 0px;
+    height: 170px;
+}
+.companyDetail .logo img.premium {    
+    top: 30px;
+    left: -42px;    
+}
+}
+
+
+@media (max-width: 991px){
+.about-sec .sec-left{
+    text-align: center;
+}
+.about-sec .sec-left img {
+    width: 60%;    
+    margin-bottom: 1rem;
+}
+
+.company-ctg-sec .row {
+    row-gap: 30px;
+}
+
+.company-ctg-sec p#info {
+    font-size: 14px;
+    line-height: 1.5;
+    height: unset;
+    min-height: unset;
+    padding-bottom: 10px;
+}
+
+.company-ctg-sec .sec-border {
+    margin: 0 4rem;
+}
+
+.banner-slider .categories {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.banner-slider .categories i{
+    position: unset;
+    margin-right: 6px;
+}
+
+.biocoreInfo-sec .sec-left li a {    
+    font-size: 13px;
+    word-break: break-word;
+}
+
+.outer-sec .row {
+    row-gap: 30px;
+}
+.outer-sec {
+    padding: 2rem 8rem;
+}
+.contactSec {
+    margin: 0 13rem;
+}
+
+footer .row {
+    row-gap: 30px;
+}
+}
+
+
+@media (max-width: 768px){
+header .contact a {
+    display: block;
+}
+
+header a.tel {
+    border-right: none;
+    padding-right: 0;
+}
+.contactSec {
+    margin: 0 7rem;
+}
+}
+
+
+@media (max-width: 767px){
+.howWorks-sec .row {
+    row-gap: 30px;
+}
+
+.testimonial-sec .client {    
+    margin: 0 2rem;   
+}
+
+.biocoreInfo-sec .sec-right ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.product-range-sec h2,
+.biocoreInfo-sec .sec-left h5,
+.biocoreInfo-sec .sec-right h2 {
+    font-size: 20px;
+}
+.biocoreInfo-sec .sec-right h5 {
+    font-size: 18px;
+}
+.biocoreInfo-sec .sec-right ul {
+    font-size: 15px;
+}
+.product-range-sec {
+    padding: 2rem 0;
+}
+.companyDetail p.lctn {    
+    margin: 0 6px;
+}
+.companyDetail .logo img.premium {
+    top: 20px;
+    left: -22px;
+    height: 16px;
+}
+.contactInfo .row {
+    row-gap: 20px;
+}
+footer,
+.biocoreInfo-sec,
+.about-sec,
+.companyDetail,
+.ctgs,
+.about-services .sec-heading,
+.about-focus,
+.terms-condition,
+.privacy-policy {
+    text-align: center;
+}
+
+footer {    
+    padding-top: 2rem;
+}
+
+footer .footer-logo img {
+    width: 30%;
+}
+
+footer .footer-links li:before,
+footer .products li:before,
+footer .footer-contact li>i {    
+    position: unset;
+    margin-right: 10px;    
+}
+}
+
+@media (max-width: 540px){
+h2 {
+    font-size: 20px;
+}
+header .search-bar button.btn.btn-outline-success {    
+    width: unset;
+    font-size: 14px;
+}
+header .top-bar {
+    text-align: center;
+}
+header .search-bar {
+    width: unset;
+}
+header .logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+header .logo img {
+    width: 50%;
+}
+.banner-slider .categories ul {
+    column-count: 2;
+    text-align: left;
+}
+.banner-slider .categories h6 {
+    text-align: center;
+}
+.banner-slider .categories i {
+    position: absolute;
+    margin-right: 0;
+}
+.slides-link a{
+    font-size: 12px;
+}
+.howWorks-sec .content img {
+    height: 60px;
+}
+.howWorks-sec .content h6 {
+    font-size: 14px;
+}
+.company-ctg-sec .sec-border {
+    margin: 0;
+}
+.company-ctg-sec .content {
+    padding: 0 2rem 2rem;
+}
+.company-ctg-sec .viewAll-btn a.btn.btn-primary {    
+    font-size: 13px;
+}
+.outer-sec {
+    padding: 2rem 1rem;
+}
+.outer-sec .row {
+    row-gap: 15px;
+}
+.companyDetail .logo img {
+    height: 120px;
+}
+.company-ctg-sec .row {
+    row-gap: 0px;
+}
+.contactInfo .row {
+    row-gap: 10px;
+}
+.contactSec {
+    margin: 0;
+}
+.contactInfo i {
+    font-size: 26px;
+    margin-bottom: 8px;    
+}
+footer {    
+    margin-top: 1rem;
+}
+footer .footer-logo img {
+    width: 45%;
+}
+}
+@media (max-width: 1024px){
+    .contact-sec .contact-left {
+        text-align: center;
+    }
+    
+    .contact-sec .contact-left li i {    
+        position: unset;   
+    }
+    
+    .contact-sec .contact-left h6 {    
+        display: none;
+    }
+    
+    .contact-sec .contact-right {   
+        margin: 0 12rem;    
+    }
+    
+    }
